@@ -13,7 +13,7 @@ plugins: [
 
 ### Add CSS file
 ```
-<link rel="stylesheet" type="text/css" href="./node_modules/vicoders-notify/assets/css/notify.css">
+<link rel="stylesheet" type="text/css" href="./node_modules/vicoders-notify/assets/css/notify.min.css">
 ```
 
 ### Parameters
@@ -44,7 +44,7 @@ Function
 
 ### To call a success notify
 ```
-import { notify } from '../node_modules/vicoders-notify/assets/notify.js';
+import { notify } from '../node_modules/vicoders-notify/assets/js/notify.js';
 $(document).ready(function() {
 	notify('success', 'Successfully!');
 });
@@ -52,6 +52,7 @@ $(document).ready(function() {
 
 ### Or you can call a warning notify with timeout is 5 seconds
 ```
+import { notify } from '../node_modules/vicoders-notify/assets/js/notify.js';
 $(document).ready(function() {
 	notify('warning', 'Warning!', 5000);
 });

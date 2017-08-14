@@ -1,7 +1,7 @@
 {
   "name": "vicoders-notify",
-  "version": "1.0.4",
-  "description": "",
+  "version": "1.0.5",
+  "description": "A package to show notify",
   "main": "notify.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

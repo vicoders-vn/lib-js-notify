@@ -21,23 +21,23 @@ plugins: [
 function notify(type, content, time, scroll_top, close_callback) { }
 ```
 
-#### type
-##### String. Default: success
-##### Type of notify
+### type
+#### String. Default: success
+#### Type of notify
 
-#### content
-##### String.
-##### Content of notify
+### content
+#### String.
+#### Content of notify
 
-#### time
-##### Integer. Default: infinite
-##### Time auto hide of notify
+### time
+#### Integer. Default: infinite
+#### Time auto hide of notify
 
-#### scroll_top
-##### Boolean. Default: false
+### scroll_top
+#### Boolean. Default: false
 
-#### close_callback
-##### Function
+### close_callback
+#### Function
 
 ### To call a success notify
 ```

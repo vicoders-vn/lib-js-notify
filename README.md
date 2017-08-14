@@ -22,8 +22,8 @@ function notify(type, content, time, scroll_top, close_callback) { }
 ```
 
 ### type
-#### String. Default: success
-#### Type of notify
+String. Default: success
+Type of notify
 
 ### content 
 String.

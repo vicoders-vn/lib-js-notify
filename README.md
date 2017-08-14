@@ -25,19 +25,19 @@ function notify(type, content, time, scroll_top, close_callback) { }
 #### String. Default: success
 #### Type of notify
 
-### content
-#### String.
-#### Content of notify
+### content 
+String.
+Content of notify
 
 ### time
-#### Integer. Default: infinite
-#### Time auto hide of notify
+Integer. Default: infinite
+Time auto hide of notify
 
 ### scroll_top
-#### Boolean. Default: false
+Boolean. Default: false
 
 ### close_callback
-#### Function
+Function
 
 ### To call a success notify
 ```

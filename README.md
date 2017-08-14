@@ -11,6 +11,34 @@ plugins: [
 
 ## Usage:
 
+### Add CSS file
+```
+<link rel="stylesheet" type="text/css" href="./node_modules/vicoders-notify/assets/css/notify.css">
+```
+
+### Parameters
+```
+function notify(type, content, time, scroll_top, close_callback) { }
+```
+
+#### type
+##### String. Default: success
+##### Type of notify
+
+#### content
+##### String.
+##### Content of notify
+
+#### time
+##### Integer. Default: infinite
+##### Time auto hide of notify
+
+#### scroll_top
+##### Boolean. Default: false
+
+#### close_callback
+##### Function
+
 ### To call a success notify
 ```
 import { notify } from '../node_modules/vicoders-notify/assets/notify.js';
